@@ -53,7 +53,7 @@ function resetAll() {
   resetSelected();
 }
 // tutorial said to add this to restore functionality after adding type="module to script in html, but mine didn't stop working?"
-// window.resetAll = resetAll;
+window.resetAll = resetAll;
 
 
 // Random computer choice
@@ -157,7 +157,7 @@ function select(playerChoice) {
   }
 }
 // tutorial said to add this to restore functionality after adding type="module to script in html, but mine didn't stop working?"
-// window.select = select;
+window.select = select;
 
 // On startup, set initial values
 resetAll();
